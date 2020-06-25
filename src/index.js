@@ -1,6 +1,7 @@
 function sym() {
   let args = [...arguments];
-
+  let howManyArgs = args.length;
+  console.log(howManyArgs);
   return args;
 }
 
